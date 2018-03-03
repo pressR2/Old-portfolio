@@ -19,7 +19,7 @@ body {
 }
 
 .header-inner {
-  width: 100%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,12 +72,16 @@ hr {
   width: 100%;
   /* max-width: 100%; */
 }
-.second-header-title {
+
+.header-featured {
   width: 100%;
+}
+.second-header-title {
+  /* width: 100%; */
   color: #7d97ad;
   font-size: 20px;
-    margin-bottom: 8px;
-  /* margin-left: 5px; */
+  margin-bottom: 8px;
+  margin-left: 5px;
 }
 
 .container-projects {
@@ -89,14 +93,16 @@ hr {
 }
 
 .project-image {
-  max-width: 300px;
+  max-width: 70%;
 }
 
 .project-name {
-  width: 100%;
+  width: 70%;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.5em;
 }
 
 .project-name a {
@@ -106,6 +112,7 @@ hr {
   color: #2d3c49;
   text-transform: none;
   display: block;
+  margin-top: 1em;
   /* text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden; */
