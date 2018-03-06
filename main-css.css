@@ -19,44 +19,50 @@ img {
 
 .header {
   width:100%;
-  display: flex;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
-.header-inner {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+.header-title-content{
+  /* width: 100%; */
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
-.header-logo {
-  height: 80px;
+.site-logo {
+  height: 50px;
+  width: 50px;
   margin-right: 16px;
-  vertical-align: top;
+  /* vertical-align: top; */
   margin-top: 12px;
 }
 
 .header-title {
-  /* max-width: 100%; */
+  /* width: 100%; */
   font-weight: normal;
-  font-size: 40px;
+  font-size: 26px;
   text-transform: uppercase;
-  margin: 0.5em 0.25em;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-right: 2px;
   text-align: end;
   color: #2d3c49;
 }
 
 .header-description {
   /* max-width: 100%; */
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
-  margin: 0.5em 0.25em;
+  margin-top: 0;
+  margin-bottom: 3px;
+  margin-right: 2px;
   color: #2d3c49;
   text-align: end;
 }
 
 hr {
   width: 100%;
-  height: 4px;
+  height: 2.5px;
   color: #7d97ad;
   background-color: #7d97ad;
   border: none;
@@ -72,15 +78,15 @@ hr {
   margin-right: auto;
 }
 
-.big-image {
+/* .big-image {
   width: 100%;
   /* max-width: 100%; */
-}
+} */
 
 .header-featured {
   width: 100%;
 }
-.second-header-title {
+.futured-header-title {
   /* width: 100%; */
   color: #7d97ad;
   font-size: 20px;
@@ -117,7 +123,4 @@ hr {
   text-transform: none;
   display: block;
   margin-top: 1em;
-  /* text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden; */
 }
