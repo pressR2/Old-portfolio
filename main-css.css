@@ -70,6 +70,10 @@ hr {
   margin-bottom: 16px;
 }
 
+.content{
+  width: 100%;
+}
+
 .container-image {
   width: 100%;
   position: relative;
@@ -90,8 +94,9 @@ hr {
   /* width: 100%; */
   color: #7d97ad;
   font-size: 20px;
-  margin-bottom: 8px;
-  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 0;
+  margin-left: 2px;
 }
 
 .container-projects {
@@ -103,11 +108,11 @@ hr {
 }
 
 .project-image {
-  max-width: 70%;
+  /* max-width: 90%; */
 }
 
 .project-name {
-  width: 70%;
+  /* width: 70%; */
   text-transform: uppercase;
   font-size: 18px;
   text-align: center;

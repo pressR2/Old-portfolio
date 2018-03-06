@@ -3,6 +3,11 @@
   flex-wrap: wrap;
 }
 
+.container-projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 334px) {
   .header-logo {
     width: 50%;
@@ -13,4 +18,22 @@
     width: 50%;
     order: 0;
   }
+}
+
+@media screen and (min-width: 680px) {
+  .box {
+    width: 33%;
+  }
+
+  .project-name a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
