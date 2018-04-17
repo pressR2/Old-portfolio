@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -6,7 +7,7 @@ body, html {
 }
 
 body {
-  font-family: 'Hind Madurai', sans-serif;
+  font-family: "Hind Madurai", sans-serif;
 }
 
 img {
@@ -24,7 +25,7 @@ img {
   font-weight: normal;
   font-size: 26px;
   text-transform: uppercase;
-  margin: 7px 2px 0 0;
+  margin: 7px 5px 0 0;
   text-align: end;
   color: #2d3c49;
 }
@@ -32,7 +33,7 @@ img {
 .header-description {
   font-size: 14px;
   text-transform: uppercase;
-  margin: 0 2px 3px 0;
+  margin: 0 5px 3px 0;
   color: #2d3c49;
   text-align: end;
 }
@@ -49,16 +50,12 @@ hr {
   width: 100%;
 }
 
-.futured-header-title {
+.featured-header-title {
   font-weight: normal;
   color: #7d97ad;
   font-size: 20px;
-  margin: 8px 0 5px 3px;
+  margin: 8px 0 5px 5px;
 
-}
-
-.container-projects {
-  width: 100%;
 }
 
 .box {
@@ -73,7 +70,7 @@ hr {
   margin: 0 0 1.5em 0;
 }
 
-.project-name a {
+a {
   width: 100%;
   font-size: 16px;
   text-decoration: none;
