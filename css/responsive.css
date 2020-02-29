@@ -1,83 +1,100 @@
-.header {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container-projects {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media screen and (min-width: 319px) {
-  .header-logo {
-    width: 30%;
-    order: -1;
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
   }
-
-  .header-title-content {
-    width: 70%;
-    order: 0;
+  
+  .container-projects {
+    display: flex;
+    flex-wrap: wrap;
   }
-}
+  
 
-@media screen and (min-width: 452px) and (max-width: 648px) {
-  .box {
-    text-align: center;
+  @media screen and (min-width: 319px) {
+    .main-header .header-logo {
+      width: 30%;
+      order: -1;
+    }
+  
+    .main-header .header-title-content {
+      width: 70%;
+      order: 0;
+    }
+
+    .project .project-title {
+      font-size: 20px;
+      font-weight: normal;
+    }
   }
-}
+  
 
-@media screen and (min-width: 549px) {
-  .project-name {
-    font-size: 20px;
-    font-weight: normal;
+  @media screen and (min-width: 452px) and (max-width: 648px) {
+    .project {
+      text-align: center;
+    }
   }
+  
 
-  .site-logo {
-    height: 59px;
-    width: 59px;
-    margin-left: 5px;
+  @media screen and (min-width: 549px) {
+    .header-logo .site-logo {
+      height: 59px;
+      width: 59px;
+      margin-left: 5px;
+    }
+
+    .header-title-content h3 {
+      font-size: 16px;
+      margin-top: 0;
+    }
+  
+    .header-title-content h1 {
+      font-size: 34px;
+    }
+  
+    .featured-header-title {
+      font-size: 24px;
+    }
+    
+    .project .project-title {
+      font-size: 21px;
+      font-weight: normal;
+    }
   }
+  
+  
+  @media screen and (min-width: 649px) {
+    .header-title-content h3 {
+      margin-top: 0;
+    }
 
-  .featured-header-title {
-    font-size: 24px;
-    font-weight: normal;
+    .project {
+      width: 32%;
+    }
+  
+    .project a {
+      font-size: 14px;
+    }
+  
+    .project-two {
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
+  
+  
+  @media screen and (min-width: 850px) {
+    .content,
+    .main-header,
+    .container-projects {
+      width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-  .header-description {
-    font-size: 16px;
-    margin-top: 0;
+    .main-wrapper footer {
+      width: 850px;
+      left:0;
+      right:0;
+      margin:0 auto;
+    } 
   }
-
-  .header-title {
-    font-size: 34px;
-  }
-}
-
-
-@media screen and (min-width: 649px) {
-  .box {
-    width: 32%;
-  }
-
-  .project-name a {
-    font-size: 14px;
-  }
-
-  .project-two {
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .header-description {
-    margin-top: 0;
-  }
-}
-
-
-@media screen and (min-width: 850px) {
-  .content,.header,.container-projects, footer {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+  
