@@ -84,14 +84,14 @@
   @media screen and (min-width: 850px) {
     .content,
     .main-header,
-    .container-projects {
+    .container-projects,
+    .main-wrapper footer {
       width: 850px;
       margin-left: auto;
       margin-right: auto;
     }
 
     .main-wrapper footer {
-      width: 850px;
       left:0;
       right:0;
       margin:0 auto;
