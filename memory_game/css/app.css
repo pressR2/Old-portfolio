@@ -135,13 +135,32 @@ h1 {
   font: bold 35px;
 }
 
+.win-info h2 {
+  text-align: center;
+  color: #4285f4;
+  /* transition: all .2s ease-in-out; */
+}
+
+/* @keyframes h2 {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.4);
+    }
+  } */
+/* .win-info h2 {
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+} */
+
 .win-info p {
   font-size: 20px;
   text-align: center;
 }
 
 .win-info .new-game {
-text-align: center;
+  text-align: center;
 }
 
 .win-info .button {

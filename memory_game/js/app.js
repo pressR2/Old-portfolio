@@ -6,6 +6,7 @@ let countMatchPairCards = 0;
 let countMove = 0;
 const moves = $('.moves');
 let rating = '0 Stars';
+let title = '';
 const timer = $('.timer');
 let seconds = -1;
 let minutes = -1;
@@ -17,6 +18,7 @@ let gameTime = TIME_TEXT + '00:00';
 const mainGameView = $('.container');
 const afterWinningInfo = $(`<div class="win-info">
    <h1>Congratulations! You won the game.</h1>
+   <h2></h2>
    <p></p>
    <div class="new-game"><button type= "submit" class="button">Play again?</button></div>
    </div>`);
@@ -35,7 +37,7 @@ function preparationGame() {
 
 // get the cards elements into an array
 function initializeDeck() {
-  for (i = 1; i <= 16; i++) {
+  for (let i = 1; i <= 16; i++) {
     cards.push($('.deck li:nth-child(' + i + ')'));
   }
 }
@@ -84,7 +86,6 @@ function shuffle(array) {
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
   }
-
   return array;
 }
 
@@ -116,13 +117,16 @@ function moveCounter() {
 // update star rating and display it, set the winning text
 function starRating() {
   if (countMove <= 24) {
-    rating = '3 Stars and the title "Badass flipper!"';
+    title = 'Badass flipper!'
+    rating = '3 Stars';
   } else if (countMove > 24 && countMove <= 32) {
     $('.stars li:nth-child(1)').hide();
-    rating = '2 Stars and the title "Solid spotter!"';
+    title = 'Solid spotter!'
+    rating = '2 Stars';
   } else if (countMove > 32) {
     $('.stars li:nth-child(2)').hide();
-    rating = '1 Star and the title "Junior clicker!"';
+    title = 'Junior clicker!'
+    rating = '1 Star';
   }
 }
 
@@ -198,7 +202,8 @@ function wrongMatch() {
 function afterWinning() {
   mainGameView.remove();
   afterWinningInfo.appendTo('body');
-  $('p').text('With ' + countMove + MOVES_TEXT + ' and ' + rating + ' ' + gameTime);
+  $('h2').text(title);
+  $('p').html(rating + '<br />' + countMove + MOVES_TEXT + '<br />' + gameTime);
   $('button').on('click', continueGame);
 }
 
