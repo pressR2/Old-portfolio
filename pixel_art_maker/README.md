@@ -1,16 +1,24 @@
 # Pixel Art Maker Project
+![my screenshot](pixel-art.png "Pixel Art")
+## About
+A single-page web app that allows users to create artistic designs on a customizable canvas.
+The main goal of this project is to implement the `makeGrid()` function, that dynamically creates a grid the user can interact with.
+## What I learned
+* Defining variables with `const` and `let`.
+* Interacting with the DOM via jQuery.
+* Declaring functions and attaching them to DOM objects as event listeners.
+* Writing nested loops and using loop variables.
 
-## Table of Contents
+## Capabilities
+* Dynamically set the size of the width and height grid.
+* Choose a color.
+* Click a cell in the grid to fill that cell with the chosen color.
+* Erase the color.
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+## Link to site
+* [https://pressr2.github.io/pixel_art_maker/](https://pressr2.github.io/pixel_art_maker/)
 
-## Instructions
-
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Source
+Initial code by [Udacity](https://github.com/udacity/project-pixel-art-maker-starter.git)
+### Dependencies
+jQuery
