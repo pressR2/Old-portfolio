@@ -16,7 +16,7 @@ The main goal of this project is to implement the `makeGrid()` function, that dy
 * Erase the color.
 
 ## Link to site
-* [https://pressr2.github.io/pixel_art_maker/](https://pressr2.github.io/pixel_art_maker/)
+* [Pixel Art Maker](https://pressr2.github.io/Old-portfolio/pixel_art_maker/)
 
 ## Source
 Initial code by [Udacity](https://github.com/udacity/project-pixel-art-maker-starter.git)
