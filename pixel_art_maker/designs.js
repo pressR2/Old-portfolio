@@ -10,7 +10,7 @@ const table = $('#pixel_canvas');
 // Instructions behavior
 
 colorValue.on('change', function() {
-   $('.cell').css("background-color", colorValue.val());
+   $('.table-cell').css("background-color", colorValue.val());
 });
 
 // Grid creation
