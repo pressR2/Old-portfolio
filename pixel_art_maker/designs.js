@@ -4,7 +4,7 @@
 
 // Variables
 
-const colorValue = $('#colorPicker');
+const colorValue = $('#color_picker');
 const table = $('#pixel_canvas');
 
 // Instructions behavior
@@ -28,7 +28,7 @@ function makeGrid(e) {
     }
 }
 
-$('#sizePicker').on('submit', makeGrid);
+$('#size_picker').on('submit', makeGrid);
 
 // Set and remove cell color
 
