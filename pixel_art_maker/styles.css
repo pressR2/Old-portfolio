@@ -148,6 +148,11 @@ input[type=number] {
     .arrow {
         width: 18px;
     }
+
+    .send-form {
+        width: 55px;
+        padding: 1px 0;
+    }
 }
 
 
