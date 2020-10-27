@@ -8,4 +8,4 @@ A functional website translated from a design prototype.
 * Linking stylesheet into html.
 
 ## Link to site
-* [Animal Card](https://pressr2.github.io/Old-portfolio/animal_card/)
+* [Animal Card](https://pressr2.github.io/Old-portfolio/animal_card/index.html)
